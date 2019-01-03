@@ -12,6 +12,16 @@
 		84A9A5C821DDD7E7009826BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A9A5C621DDD7E7009826BC /* Main.storyboard */; };
 		84A9A5CA21DDD7E8009826BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A9A5C921DDD7E8009826BC /* Assets.xcassets */; };
 		84A9A5CD21DDD7E8009826BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A9A5CB21DDD7E8009826BC /* LaunchScreen.storyboard */; };
+		84A9A5DB21DDD930009826BC /* SpringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A9A5D421DDD930009826BC /* SpringView.swift */; };
+		84A9A5DC21DDD930009826BC /* RightCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A9A5D521DDD930009826BC /* RightCell.swift */; };
+		84A9A5DD21DDD930009826BC /* LeftCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A9A5D621DDD930009826BC /* LeftCell.swift */; };
+		84A9A5DE21DDD930009826BC /* ChatCollectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A9A5D721DDD930009826BC /* ChatCollectionController.swift */; };
+		84A9A5DF21DDD930009826BC /* ChatCollectionController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A9A5D821DDD930009826BC /* ChatCollectionController.xib */; };
+		84A9A5E021DDD930009826BC /* LeftCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A9A5D921DDD930009826BC /* LeftCell.xib */; };
+		84A9A5E121DDD930009826BC /* RightCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A9A5DA21DDD930009826BC /* RightCell.xib */; };
+		84A9A5E721DDEA9F009826BC /* ChatEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A9A5E621DDEA9F009826BC /* ChatEngine.swift */; };
+		84A9A5EA21DDF158009826BC /* SuggestionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A9A5E821DDF158009826BC /* SuggestionCell.swift */; };
+		84A9A5EB21DDF158009826BC /* SuggestionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A9A5E921DDF158009826BC /* SuggestionCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +32,16 @@
 		84A9A5C921DDD7E8009826BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84A9A5CC21DDD7E8009826BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84A9A5CE21DDD7E8009826BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84A9A5D421DDD930009826BC /* SpringView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringView.swift; sourceTree = "<group>"; };
+		84A9A5D521DDD930009826BC /* RightCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightCell.swift; sourceTree = "<group>"; };
+		84A9A5D621DDD930009826BC /* LeftCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftCell.swift; sourceTree = "<group>"; };
+		84A9A5D721DDD930009826BC /* ChatCollectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatCollectionController.swift; sourceTree = "<group>"; };
+		84A9A5D821DDD930009826BC /* ChatCollectionController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatCollectionController.xib; sourceTree = "<group>"; };
+		84A9A5D921DDD930009826BC /* LeftCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftCell.xib; sourceTree = "<group>"; };
+		84A9A5DA21DDD930009826BC /* RightCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RightCell.xib; sourceTree = "<group>"; };
+		84A9A5E621DDEA9F009826BC /* ChatEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatEngine.swift; sourceTree = "<group>"; };
+		84A9A5E821DDF158009826BC /* SuggestionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionCell.swift; sourceTree = "<group>"; };
+		84A9A5E921DDF158009826BC /* SuggestionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SuggestionCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,16 @@
 			children = (
 				84A9A5C221DDD7E7009826BC /* AppDelegate.swift */,
 				84A9A5C421DDD7E7009826BC /* ViewController.swift */,
+				84A9A5D721DDD930009826BC /* ChatCollectionController.swift */,
+				84A9A5D821DDD930009826BC /* ChatCollectionController.xib */,
+				84A9A5D621DDD930009826BC /* LeftCell.swift */,
+				84A9A5D921DDD930009826BC /* LeftCell.xib */,
+				84A9A5D521DDD930009826BC /* RightCell.swift */,
+				84A9A5DA21DDD930009826BC /* RightCell.xib */,
+				84A9A5D421DDD930009826BC /* SpringView.swift */,
+				84A9A5E621DDEA9F009826BC /* ChatEngine.swift */,
+				84A9A5E821DDF158009826BC /* SuggestionCell.swift */,
+				84A9A5E921DDF158009826BC /* SuggestionCell.xib */,
 				84A9A5C621DDD7E7009826BC /* Main.storyboard */,
 				84A9A5C921DDD7E8009826BC /* Assets.xcassets */,
 				84A9A5CB21DDD7E8009826BC /* LaunchScreen.storyboard */,
@@ -122,7 +152,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84A9A5E121DDD930009826BC /* RightCell.xib in Resources */,
+				84A9A5EB21DDF158009826BC /* SuggestionCell.xib in Resources */,
+				84A9A5E021DDD930009826BC /* LeftCell.xib in Resources */,
 				84A9A5CD21DDD7E8009826BC /* LaunchScreen.storyboard in Resources */,
+				84A9A5DF21DDD930009826BC /* ChatCollectionController.xib in Resources */,
 				84A9A5CA21DDD7E8009826BC /* Assets.xcassets in Resources */,
 				84A9A5C821DDD7E7009826BC /* Main.storyboard in Resources */,
 			);
@@ -135,8 +169,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84A9A5DC21DDD930009826BC /* RightCell.swift in Sources */,
 				84A9A5C521DDD7E7009826BC /* ViewController.swift in Sources */,
 				84A9A5C321DDD7E7009826BC /* AppDelegate.swift in Sources */,
+				84A9A5E721DDEA9F009826BC /* ChatEngine.swift in Sources */,
+				84A9A5DB21DDD930009826BC /* SpringView.swift in Sources */,
+				84A9A5DD21DDD930009826BC /* LeftCell.swift in Sources */,
+				84A9A5DE21DDD930009826BC /* ChatCollectionController.swift in Sources */,
+				84A9A5EA21DDF158009826BC /* SuggestionCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +323,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HSB3FLWF7Q;
 				INFOPLIST_FILE = ChatSuggestion/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +341,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HSB3FLWF7Q;
 				INFOPLIST_FILE = ChatSuggestion/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
